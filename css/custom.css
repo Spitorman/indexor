@@ -1,0 +1,257 @@
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right;
+  }
+}
+body {
+    font-family: 'Exo', sans-serif;
+    position: relative;
+}
+.navbar-default {
+   
+    background-color: #fff;
+    border-color: #FFFFFF;   
+    color: #000;
+
+    
+    
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #0B9BE1;
+}
+.navbar-default .navbar-brand {
+    color: #000;
+    
+}
+
+/*
+Podświetlenie navbaru
+*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #000;
+    background-color: transparent;
+    
+}
+/*
+kolor linków
+*/
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover
+.navbar-default .navbar-nav > .active > a:focus {
+    
+    color: #FFF;
+    background-color: #FC6432;
+    
+}
+
+.offf:hover {
+    opacity: 0.9;
+}
+/*
+podświetlenie linków
+*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FC6432;
+    background-color: transparent;
+    font-weight: bold;
+}
+.jumbotron {
+    height: 110vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 250px;
+    color: #1b1b1b;
+    background-image: url(../img/jumbo-bg2.jpg);
+    background-position: 50% 50%;
+    
+}
+.jumbend {
+    margin-top: -100px;
+    height: 100px;
+    background-image: url(../img/jumb-down.png);
+    background-position: 50%;
+}
+
+.about {
+    margin-top: -5px;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #0b9be1;
+    color: #f7f7f7;
+    font-size: 18px;
+}
+
+.skill {
+    text-align: left;
+
+}
+.aboutend {
+    height: 100px;
+    background-image: url(../img/about-down.png);
+    background-position: 50%;
+}
+.portfolio {
+
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #fff;
+    color: #1b1b1b;
+    font-size: 18px;
+}
+.oppac:hover {
+    opacity: 0.8;
+}
+.portfend {
+    height: 100px;
+    background-image: url(../img/portf-down.png);
+    background-position: 50%;
+}
+.oferta {
+
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #25262a;
+    color: #fff;
+    font-size: 18px;
+}
+
+.offend {
+    margin-top: -100px;
+    height: 100px;
+    background-image: url(../img/oferta-down.png);
+    background-position: 50%;
+}
+
+.kontakt {
+    margin-top: -5px;
+    height: auto;
+    width: 100%;
+    padding: 25px;
+    background-color: #fc6432;
+    color: #f7f7f7;
+    font-size: 18px;
+}
+
+.contactend {
+    height: 100px;
+    background-image: url(../img/contact-down.png);
+    background-position: 50%;
+}
+
+.footer {
+    height: 100px;
+    background-color: white;
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+
+#jumbotron{
+    margin-top: -50px;
+    float: left;
+}
+#about{
+    margin-top: -50px;
+    float: left;
+}
+#portfolio{
+    margin-top: -50px;
+    float: left;
+}
+#oferta{
+    margin-top: -50px;
+    float: left;
+}
+#kontakt{
+    margin-top: -50px;
+    float: left;
+}
+
+
+
+
+
+
+.table {
+    border-bottom:0px !important;
+}
+.table th, .table td {
+    border: 1px !important;
+}
+.fixed-table-container {
+    border:0px !important;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #424242;
+}
+.box_yellow {
+    background-color: #F6B800;
+    color: black;
+    height: 60px;
+    font-size: 24px;
+    
+}
+.bas {
+    background-color: #4a4a4a;
+    color: white;
+    height: 60px;
+    font-size: 24px;
+}
+
+.plat {
+    background-color: #52ffed;
+    color: black;
+    height: 60px;
+    font-size: 24px;
+}
+.adv {
+    background-color: #7c7c7c;
+    color: white;
+    height: 60px;
+    font-size: 24px;
+}
+.boxleft {
+    text-align: left;
+    width: 35%;
+}
+
+
+
+
+.hide2 {
+ opacity:0
+}
+ 
+.show {
+ opacity: 1;
+}
+
+
+
+.formul {
+    background-color: #7e3218;
+    color: white;
+}
