@@ -73,10 +73,10 @@ podświetlenie linków
     font-weight: bold;
 }
 .jumbotron {
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     text-align: center;
-    padding-top: 250px;
+    padding-top: 150px;
     color: #1b1b1b;
     background-image: url(../img/jumbo-bg2.jpg);
     background-position: 50% 50%;
