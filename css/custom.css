@@ -137,6 +137,9 @@ podświetlenie linków
     color: #fff;
     font-size: 18px;
 }
+.oferta-xs {
+    margin-left: -25px;
+}
 
 .offend {
     margin-top: -100px;
@@ -144,6 +147,7 @@ podświetlenie linków
     background-image: url(../img/oferta-down.png);
     background-position: 50%;
 }
+
 
 .kontakt {
     margin-top: -5px;
