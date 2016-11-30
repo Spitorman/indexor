@@ -63,6 +63,10 @@ kolor linków
 .offf:hover {
     opacity: 0.9;
 }
+.offf {
+    height: 550px;
+    float: left;
+}
 /*
 podświetlenie linków
 */
@@ -73,7 +77,7 @@ podświetlenie linków
     font-weight: bold;
 }
 .jumbotron {
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     text-align: center;
     padding-top: 150px;
@@ -259,3 +263,6 @@ podświetlenie linków
     background-color: #7e3218;
     color: white;
 }
+
+
+
