@@ -60,13 +60,6 @@ kolor linków
     
 }
 
-.offf:hover {
-    opacity: 0.9;
-}
-.offf {
-    height: 550px;
-    float: left;
-}
 /*
 podświetlenie linków
 */
@@ -75,6 +68,14 @@ podświetlenie linków
     color: #FC6432;
     background-color: transparent;
     font-weight: bold;
+}
+
+.offf:hover {
+    opacity: 0.9;
+}
+.offf {
+    height: 550px;
+    float: left;
 }
 .jumbotron {
     height: 60vh;
@@ -104,10 +105,7 @@ podświetlenie linków
     font-size: 18px;
 }
 
-.skill {
-    text-align: left;
 
-}
 .aboutend {
     height: 100px;
     background-image: url(../img/about-down.png);
@@ -265,4 +263,9 @@ podświetlenie linków
 }
 
 
-
+@media only screen and (max-device-width: 480px) {
+    .jumbotron {
+        height: 80%;
+        padding-top: 100px;
+    }   
+}
